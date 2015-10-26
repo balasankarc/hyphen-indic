@@ -1,0 +1,20 @@
+Source: hyphen-indic
+Section: unknown
+Priority: optional
+Maintainer: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/hyphen-indic.git
+#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/hyphen-indic.git;a=summary
+
+Package: hyphen-indic
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: hyphen-indic-doc
+Architecture: all
+Description: documentation for hyphen-indic
+ <insert long description, indented with spaces>
