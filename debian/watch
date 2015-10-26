@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.*\.tar\.gz\?ref=v?(\d\S*)/hyphenation-$1\.tar\.gz/g \
+  https://gitlab.com/smc/hyphenation/tags .*archive\.tar\.gz\?ref=v?(\d\S*)
