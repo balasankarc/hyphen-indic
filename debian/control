@@ -1,20 +1,120 @@
 Source: hyphen-indic
-Section: unknown
+Section: text
 Priority: optional
-Maintainer: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 9)
+Maintainer: Debian-IN Team <debian-in-workers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 9), dh-buildinfo, dictionaries-common (>= 0.10)
 Standards-Version: 3.9.6
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://anonscm.debian.org/collab-maint/hyphen-indic.git
-#Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/hyphen-indic.git;a=summary
+Vcs-Git: git://anonscm.debian.org/debian-in/hyphen-indic.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=debian-in/hyphen-indic.git
+Homepage: http://wiki.smc.org.in/Hyphenation
 
-Package: hyphen-indic
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
-
-Package: hyphen-indic-doc
+Package: hyphen-as
 Architecture: all
-Description: documentation for hyphen-indic
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Assamese hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Assamese
+ script.
+
+Package: hyphen-bn
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Bengali hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Bengali
+ script.
+
+Package: hyphen-gu
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Gujarati hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Gujarati
+ script.
+
+Package: hyphen-hi
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Hindi hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Hindi
+ script.
+
+Package: hyphen-kn
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Kannada hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Kannada
+ script.
+
+Package: hyphen-ml
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Malayalam hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Malayalam
+ script.
+
+Package: hyphen-mr
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Marathi hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Marathi
+ script.
+
+Package: hyphen-or
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Oriya hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Oriya
+ script.
+
+Package: hyphen-pa
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Punjabi hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Punjabi
+ script.
+
+Package: hyphen-ta
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Tamil hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Tamil
+ script.
+
+Package: hyphen-te
+Architecture: all
+Depends: ${misc:Depends}, dictionaries-common (>= 0.10)
+Description: Telugu hyphenation patterns for LibreOffice
+ Hyphenation patterns hyphenate words at line boundary making it more
+ natural to read.
+ .
+ This package contains hyphenation patterns for the Telugu
+ script.
